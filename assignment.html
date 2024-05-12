@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+<style>
+   
+    #navbarSupportedContent{
+        margin-left:600px;
+    }
+    
+    #div1{
+        border: 5px solid black;
+        margin:100px;
+       padding:0px 0px 0px 0px;
+       
+    }
+       body {
+  background-color: #f5f5f5;
+}
+
+.navbar {
+  background-color: #6C55A3;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav > li > a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-nav > li > a:hover {
+  color: #ccc;
+}
+#div1{
+        /* border: 5px solid black; */
+        /* margin:100px; */
+       padding:0px 0px 200px 0px;
+       
+    }
+
+</style>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+      /* Add custom styles here */
+    </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+       <img src="https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg" alt="shopping">
+        <p>Welcome to the great <strong>Big Bazar.</strong></p>
+      </div>
+      <div class="col-md-6">
+        <img src="https://png.pngtree.com/png-clipart/20190904/original/pngtree-creative-shopping-festival-shopping-cart-png-image_4463819.jpg" alt="Fun" height="350px" width="100%">
+        <p> <strong>  Happy shopping!</strong> </p>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  
+    <div id="div1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Flipkart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+</div>
+<section id="home">
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://seeklogo.com/images/F/flipkart-logo-90D5271339-seeklogo.com.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://static.vecteezy.com/system/resources/previews/019/136/437/original/amazon-logo-amazon-icon-free-free-vector.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://c8.alamy.com/comp/2RK9HMA/in-this-photo-illustration-the-meesho-logo-seen-displayed-on-a-smartphone-2RK9HMA.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<section id="about">
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          <h3>Flipkart</h3>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          Flipkart Private Limited is an Indian e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company. The company initially focused on online book sales before expanding into other product categories such as consumer electronics, fashion, home essentials, groceries, and lifestyle products.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+         <h3>Amazon</h3>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          Amazon.com, Inc. doing business as Amazon , is an American multinational technology company, engaged in e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.It is considered one of the Big Five American technology companies; the other four are Alphabet (parent company of Google), Apple, Meta (parent company of Facebook), and Microsoft.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        <h3>Meesho</h3>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          Meesho is an online shopping platform owned by the Indian company Fashnear Technologies Private Limited.It is an online marketplace that facilitates trade between suppliers, resellers and customers, with heavy reliance of external social media platforms such as Facebook and Instagram.
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+  <!-- Button with Animation -->
+  
+  <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1708663767/Croma%20Assets/Communication/Mobiles/Images/300807_0_ljzgmq.png?tr=w-600.jpg" class="img-thumbnail" alt="Iphone" width="25%">
+  <section id="services">
+  <div class="button">
+  <button type="button" class="btn btn-primary btn-lg btn-block animated-button" onclick="buyNow()">Primary Button</button>
+</div>
+</div>
+
+<!-- Custom CSS for Button Animation -->
+<style>
+  .animated-button {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+  
+  .animated-button::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.4s;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    opacity: 0;
+  }
+  
+  .animated-button:hover::after {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+</style>
+
+<!-- JavaScript Function for Button Action -->
+<script>
+  function buyNow() {
+    alert("You'r order is placed!");
+    // Add your buy now functionality here
+  }
+</script>
+<div class="products d-flex justify-content-around" >
+
+  <div class="card " style="width: 18rem;margin-right:20px;">
+    <img class="card-img-top" src="https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Shoes</h5>
+      <p class="card-text">Shoe,outer covering for the foot, usually of leather with a stiff or thick sole and heel,and generally reaching no higher than the ankle.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;margin-right:20px;">
+    <img class="card-img-top" src="https://imgeng.jagran.com/images/2023/dec/Best%20Smart%20Watch%20For%20Men%20In%20India1702885926543.jpg" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title">Smartwatch</h5>
+      <p class="card-text">The smartwatch was designed keeping in mind the same thought. Much like a smartphone.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;margin-right:20px;">
+    <img class="card-img-top" src="https://images.anandtech.com/doci/7099/DSC_0979_678x452.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Mac Book</h5>
+      <p class="card-text">The Mac, short for Macintosh is a family of personal computers designed and marketed by Apple.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+</div>
+</div>
+</section>
+<section id="contact">
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    
+   <section class ="vh-100" style="background-color: "#eee">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+                <form class="mx-1 mx-md-4">
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <input type="text" id="form3Example1c" class="form-control" />
+                      <label class="form-label" for="form3Example1c">Your Name</label>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <input type="email" id="form3Example3c" class="form-control" />
+                      <label class="form-label" for="form3Example3c">Your Email</label>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <input type="password" id="form3Example4c" class="form-control" />
+                      <label class="form-label" for="form3Example4c">Password</label>
+                    </div>
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                      <input type="password" id="form3Example4cd" class="form-control" />
+                      <label class="form-label" for="form3Example4cd">Repeat your password</label>
+                    </div>
+                  </div>
+
+                  
+                  <div class="button">
+                    <button type="button" class="btn btn-primary btn-lg btn-block animated-button" onclick="register()">Register</button>
+                  </div>
+                  <script>
+                    function register() {
+                      alert("Thank you!");
+                      // Add your buy now functionality here
+                    }
+                  </script>
+
+                </form>
+
+              </div>
+              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                  class="img-fluid" alt="Sample image">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
+</section>
+</body>
+</html>
